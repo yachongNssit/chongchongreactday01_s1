@@ -1,0 +1,68 @@
+* {
+  text-align: center;
+  font-family: Montserrat;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.header,
+.footer,
+.welcome {
+  margin: 50px 0;
+}
+
+body {
+  color: #aaa;
+}
+
+.counter-container {
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  border: 1px solid #666;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.3);
+}
+
+.count-display {
+  font-size: 80px;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #4e4e4e;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.3);
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  display: block;
+}
+.card:hover {
+  border-color: #fff;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+}
+
+.list-food ul li {
+  text-align: left;
+}
+.list-food input {
+  padding: 5px;
+  text-align: left;
+}
+.list-food button {
+  margin: 5px;
+}
